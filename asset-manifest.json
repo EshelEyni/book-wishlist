@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/book-wishlist/static/css/main.b75c0b7d.css",
+    "main.js": "/book-wishlist/static/js/main.fe401201.js",
+    "static/js/787.58e8d5a0.chunk.js": "/book-wishlist/static/js/787.58e8d5a0.chunk.js",
+    "static/media/check-mark.png": "/book-wishlist/static/media/check-mark.803b255eaeddbe6fee27.png",
+    "index.html": "/book-wishlist/index.html",
+    "main.b75c0b7d.css.map": "/book-wishlist/static/css/main.b75c0b7d.css.map",
+    "main.fe401201.js.map": "/book-wishlist/static/js/main.fe401201.js.map",
+    "787.58e8d5a0.chunk.js.map": "/book-wishlist/static/js/787.58e8d5a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b75c0b7d.css",
+    "static/js/main.fe401201.js"
+  ]
+}
