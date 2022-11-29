@@ -1,0 +1,23 @@
+.wishlist {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+    min-width: 100px;
+
+    .book-preview {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        background-color: white;
+        padding: 7.5px;
+        width: fit-content;
+        border-left: 7.5px solid orange;
+
+        :nth-child(2){
+            color: $color-primary;
+        }
+    }
+}

@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: circular;
+    line-height: 1.6;
+    font-size: 8px;
+    max-width: 100%;
+    overflow-x: hidden;
+
+    @include for-tablet-layout {
+        font-size: 14px;
+    }
+
+    @include for-desktop-layout {
+        font-size: 16px;
+    }
+
+    @include for-large-desktop-layout {
+        font-size: 18px;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    max-width: 100%;
+background-color: #9393936b;
+}
+
+
+hr {
+    margin: 0;
+    border: 1px solid #3a3939;
+}
+
+
+.main-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    transition: opacity .6s;
+    z-index: 10;
+    cursor: pointer;
+
+}
