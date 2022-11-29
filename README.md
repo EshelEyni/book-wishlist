@@ -1,7 +1,7 @@
 <h1 align="center"> Book Wishlist</h1>
 
 <p> This application was written in three hours as a front-end exercise.<p>
-
+You can check it out [here ](https://esheleyni.github.io/book-wishlist/).
 
 
 ![Main board image](src/assets/Screenshot.png)
@@ -9,7 +9,7 @@
 ### Table of Contents
 - [App Description](#app-description)
 - [Technologies](#technologies)
-- [Getting started:](#getting-started)
+- [Getting started](#getting-started)
 - [Author](#author)
 
 ## App Description
@@ -20,7 +20,7 @@ Book wishlist allows you to toggle between books and mark the book you want to b
 - Sass
 - Third party libraries like: **MUI material**, **React custom checkbox**, and more.
     
-## Getting started:
+## Getting started
 
 * Clone the repository
 * Run the following commands to run the app:
