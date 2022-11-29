@@ -8,7 +8,6 @@ export const BookPreview = ({ book, savedBooks, setSavedBooks }) => {
     const { title, description, rating, author, price } = book;
 
     useEffect(() => {
-        console.log('isChecked', isChecked);
         const isSaved = savedBooks.some(savedBook => savedBook.title === book.title);
         setIsChecked(isSaved);
     }, [savedBooks, book.title]);

@@ -1,23 +1,50 @@
 .wishlist {
-    position: relative;
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    align-items: flex-start;
-    min-width: 100px;
+    justify-content: space-between;
 
-    .book-preview {
+    .sort-by-container {
         display: flex;
-        flex-direction: row;
-        gap: 10px;
         align-items: center;
-        background-color: white;
-        padding: 7.5px;
-        width: fit-content;
-        border-left: 7.5px solid orange;
+        margin-bottom: 1rem;
 
-        :nth-child(2){
-            color: $color-primary;
+        .sort-by-btn {
+            display: flex;
+            align-items: center;
+            height: 25px;
+            width: auto;
+            background-color: white;
+            padding: 10px;
+
+            &.active {
+                background-color: darkslategray;
+                color: white;
+            }
+        }
+    }
+
+    .books-container {
+
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: flex-start;
+        min-width: 100px;
+
+        .book-preview {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            align-items: center;
+            background-color: white;
+            padding: 7.5px;
+            width: fit-content;
+            border-left: 7.5px solid orange;
+
+            :nth-child(2) {
+                color: $color-primary;
+            }
         }
     }
 }
