@@ -1,7 +1,8 @@
 <h1 align="center"> Book Wishlist</h1>
 
 <p> This application was written in three hours as a front-end exercise.<p>
-You can check it out [here ](https://esheleyni.github.io/book-wishlist/).
+
+You can check it out [here](https://esheleyni.github.io/book-wishlist/).
 
 
 ![Main board image](src/assets/Screenshot.png)
